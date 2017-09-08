@@ -40,8 +40,6 @@ import io.reactivex.functions.Function;
 @Singleton
 public class AppDataManager implements DataManager {
 
-    private static final String TAG = "AppDataManager";
-
     private final Context mContext;
     private final DbHelper mDbHelper;
     private final PreferencesHelper mPreferencesHelper;

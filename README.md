@@ -13,7 +13,8 @@
  11. glide: 感觉随调随用挺好,对含特殊符号url没有处理是无法拿到图片的。需要urlDecode
  12. dagger2：全局单例appModule+appComponent、局部单例activityModule+activityComponent,module中提供provide和控制作用域，component负责注入到什么模块，通过module和provide链接了依赖和目标的关系桥梁
  13. APPLog：虽然是自己封装用了BuildConfig，release后不会log，但是反编译后还是会catch到的。哈哈
- 14. 补充中...
+ 14. assets中json文件的读取，数据结构 + 字符串 = list集合,$Gson$Types使用
+ 15. 补充中...
  
  # 参考博客：[原地址](https://github.com/MindorksOpenSource/android-mvp-architecture)
 
